@@ -3,12 +3,14 @@
             margin: 0;
             padding: 0;
         }
+        .top-head{font-family: 'Dancing Script', cursive;}
 h1 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
+    
 }
-
+h2 {font-size: 16px;}
 p {
     margin-bottom: 16px;
 }
@@ -43,7 +45,7 @@ span {
 
         .social-icons {
             display: flex;
-            gap: 10px;
+            gap: 2px;
         }
 
         .social-icon {
@@ -64,11 +66,14 @@ input[type="checkbox"] {
     display: flex;
     justify-content: space-between;
     padding: 20px; 
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #564735;
+    font-size: 18px;
 }
 .left-column, .right-column {
     width: 48%; 
 }
-
+.recipe-text{font-size: 18px;font-family: 'Noto Sans JP', sans-serif;color:#6f6f6f;}
 .spacer {
     height: 30px; 
 }
@@ -86,7 +91,7 @@ input[type="checkbox"] {
 }
 
 .author-details {
-    flex: 1; /* Allows this section to take available space, pushing the button to the end */
+    flex: 1; /
 }
 
 .share-button {
@@ -96,8 +101,8 @@ input[type="checkbox"] {
     color: white;
     border: none;
     text-align: center;
-    line-height: 60px; /* Vertically centers the text in the button */
-    cursor: pointer; /* Makes it apparent it's clickable */
+    line-height: 60px; 
+    cursor: pointer; 
     font-weight: bold;
 }
 
@@ -105,7 +110,7 @@ input[type="checkbox"] {
 .share-button:hover {
     background-color: darkred;
 }
-/* ... Your previous CSS ... */
+
 
 .footer-section {
     display: flex;
